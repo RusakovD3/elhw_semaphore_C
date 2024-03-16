@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-Wall -g
+CFLAGS=-Wall -Werror -Wextra -g
 LIBS=-lrt -pthread
 
 all: server client
