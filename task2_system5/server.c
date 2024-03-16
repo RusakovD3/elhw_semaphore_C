@@ -13,6 +13,7 @@ union semun {
 };
 
 int main() {
+    // Указывайте свой путь
     const char *filepath = "/home/dmitr/eltex_hw/elhw_semaphore_C/task2_system5/sharedfile";
     const int project_id = 22; // Произвольное число для ftok.
 
